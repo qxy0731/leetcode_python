@@ -1,0 +1,3 @@
+# leetcode_python
+
+MY LEETCODE SOLUTION IN PYTHON
