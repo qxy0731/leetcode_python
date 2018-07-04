@@ -25,3 +25,24 @@ class Solution:
             carry = (v1 + v2 + carry) // 10
             l3 = l3.next
         return result.next
+# trick
+    # def addTwoNumbers(self, l1, l2):
+    #     """
+    #     :type l1: ListNode
+    #     :type l2: ListNode
+    #     :rtype: ListNode
+    #     """
+    #     n1 = ''
+    #     while l1:
+    #         n1 = str(l1.val) + n1
+    #         l1 = l1.next
+    #     n2 = ''
+    #     while l2:
+    #         n2 = str(l2.val) + n2
+    #         l2 = l2.next
+    #     n3 = str(int(n1) + int(n2))
+    #     result = l3 = ListNode(0)
+    #     for i in range(1,len(n3) + 1):
+    #         l3.next = ListNode(int(n3[-i]))
+    #         l3 = l3.next
+    #     return result.next
