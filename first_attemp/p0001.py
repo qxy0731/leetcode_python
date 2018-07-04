@@ -7,7 +7,7 @@ class Solution:
         """
         my_hash = {}
         for i in range(len(nums)):
-            if nums[i] not in my_hash:
-                my_hash[target - nums[i]] = i
-            else:
+            if nums[i] in my_hash:
                 return my_hash[nums[i]],i
+            else:
+                my_hash[target - nums[i]] = i
